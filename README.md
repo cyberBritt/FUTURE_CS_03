@@ -50,43 +50,26 @@ This type of system is useful in environments like healthcare, legal, or corpora
 
 ## 📁 Folder Structure
 
-Secure-File-Sharing-System/
-# Project overview
-│ ├── README.md 
-
-│ ├── encryption_portal/ 
-# Main application code 
-│ ├── app.py 
-# Flask or Node.js backend 
-│ ├── encryption_utils.py 
-# AES encryption functions 
-│ ├── file_handler.py 
-# Upload/download logic 
-│ └── templates/ 
-
-│ └── index.html 
-# HTML for web interface 
-│ ├── static/ 
-
-│ └── style.css 
-# Web styling 
-│ ├── screenshots/ 
-# Visual evidence from project 
-│ ├── upload_form_view.png |
-
-│ ├── encrypted_file_saved.png |
-
-│ ├── postman_api_test.png |
-
-│ └── architecture_flowchart.png |
-
-│ ├── security_overview.md 
-# Explanation of encryption and security logic 
-├── walkthrough_video_link.txt 
-# Link to walkthrough demo 
-└── sample_test_files/ 
-# Example files for testing (if needed)
-
+```
+SecureFileShare-Project/
+├── README.md
+├── Security_Overview.md
+├── app/
+│ ├── app.py
+│ ├── templates/
+│ └── uploads/
+├── static/
+│ ├── style.css
+│ └── icons/
+├── config/
+│ ├── secret.key
+│ └── requirements.txt
+├── test/
+│ └── sample_files/
+└── screenshots/
+    ├── file_upload_demo.png
+    └── aes_encryption_flow.png
+```
 ---
 
 ## 🔍 Sample Analysis Insights
