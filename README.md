@@ -51,27 +51,24 @@ This type of system is useful in environments like healthcare, legal, or corpora
 ## 📁 Folder Structure
 
 ```
-SecureFileShare-Project/
-├── README.md
-├── Security_Overview.md
-├── app/
-│ ├── app.py
-│ ├── templates/
-│ └── uploads/
-├── static/
+Encrypted-Uplaod-Portal/
+│
+├── app.py 
+│
+├── templates/ 
+│ ├── form.html 
+│ └── success.html 
+│
+├── static/ 
 │ ├── style.css
-│ └── icons/
-├── config/
-│ ├── secret.key
-│ └── requirements.txt
-├── test/
-│ └── sample_files/
-└── screenshots/
-    ├── file_upload_demo.png
-    └── aes_encryption_flow.png
+│ └── script.js
+│
+├── uploads/ 
+│ └── (auto-created by app.py)
+│
+└── README.md 
 ```
 ---
-
 ## 🔍 Sample Analysis Insights
 
 - 🔐 **Encryption in Action**: Files are encrypted before storing using AES and only decrypted on download
