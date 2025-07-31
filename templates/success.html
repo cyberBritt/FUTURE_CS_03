@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .checkmark-container {
+            font-size: 60px;
+            color: #2ecc71;
+            animation: pop 0.6s ease-out forwards;
+        }
+
+        @keyframes pop {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="checkmark-container">✔</div>
+    <h2>Your file was uploaded and encrypted successfully!</h2>
+
+    <div class="button-group">
+        <form action="/decrypt" method="POST">
+            <input type="hidden" name="filename" value="{{ filename }}">
+            <input type="text" name="dec_key" placeholder="Enter decryption key" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+            <button type="submit" class="btn">Decrypt and Download</button>
+        </form>
+
+        <form action="/" method="GET">
+            <button class="btn">Upload Another File</button>
+        </form>
+    </div>
+
+</body>
+</html>
