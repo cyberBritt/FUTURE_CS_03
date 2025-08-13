@@ -1,100 +1,56 @@
-# 🔐 Secure File Sharing System
+# Secure File Upload Portal
 
-## 📄 Project Overview
+## Project Overview
 
-This project simulates a real-world solution where users can upload and download files securely using AES encryption. The goal is to protect files both at rest and during transit. It was developed using Python Flask (or optionally Node.js) and incorporates encryption best practices, a simple web interface, and secure key management.
+This task involved developing a secure file upload/download portal using Python Flask with AES encryption. The system allows users to upload files, encrypt them with a password, and securely download decrypted files using the correct key. The goal was to protect sensitive files from unauthorized access.
 
-This type of system is useful in environments like healthcare, legal, or corporate settings where sensitive data transfer must be protected.
 
----
+## Skills Gained
+- Flask web application development
+- AES encryption and decryption implementation
+- Secure password handling with salt and initialization vector (IV)
+- HTML/CSS/JavaScript UI creation
+- File handling and server-side validation
 
-## 🧠 Skills Gained
 
-- Web development fundamentals (backend & frontend)
-- AES encryption and secure file transfer
-- Encryption key management and secure coding
-- File handling best practices
-- Git & GitHub version control
+## Tools Used
+- Python (Flask, PyCryptodome) – Backend development and encryption
+- HTML/CSS/JavaScript – Frontend and UI functionality
+- Kali Linux – Testing environment
+- GitHub – Project host
 
----
 
-## 🛠️ Tools Used
+## Deliverables
+Secure File Upload Portal source code
+Encryption/decryption demonstration video
+Bash command logs
+Screenshot documentation of encryption process
 
-- [Python Flask](https://flask.palletsprojects.com/en/latest/) / [Node.js + Express](https://expressjs.com/)
-- [PyCryptodome](https://pycryptodome.readthedocs.io/en/latest/)
-- [Node.js Crypto Module](https://nodejs.org/api/crypto.html)
-- [HTML/CSS/JavaScript](https://developer.mozilla.org/en-US/docs/Web)
-- [Postman](https://www.postman.com/downloads/)
-- [curl](https://curl.se/)
-- [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 
----
-
-## 🗂 Deliverables
-
-- ✅ GitHub repository with commented code  
-- 🎥 Walkthrough video demonstrating upload/download process and AES encryption  
-- 🔐 Security overview document explaining encryption logic and key handling  
-
----
-
-## 📌 Key Features Included 
-
-- Secure file **upload and download functionality**
-- **AES encryption** for all files at rest
-- Basic **encryption key management** practices
-- Clean, **user-friendly interface**
-- Well-documented **code and system architecture**
-
----
-
-## 📁 Folder Structure
-
+## Folder Structure
 ```
-Encrypted-Uplaod-Portal/
-│
-├── app.py 
-│
-├── templates/ 
-│ ├── form.html 
-│ └── success.html 
-│
-├── static/ 
+Secure-File-Portal/
+│── README.md
+│── app.py
+│── templates/
+│ ├── upload.html
+│ ├── download.html
+│── static/
 │ ├── style.css
-│ └── script.js
-│
-├── uploads/ 
-│ └── (auto-created by app.py)
-│
-└── README.md 
+│ ├── script.js
+│── encryption_demo.mp4
+│── Screenshots/
+│ ├── portal_upload.png
+│ ├── portal_download.png
+│── Logs/
+│ ├── encryption_log.txt
+│── Tools_Used.md
 ```
----
-## 🔍 Sample Analysis Insights
 
-- 🔐 **Encryption in Action**: Files are encrypted before storing using AES and only decrypted on download
-- 📂 **Secure File Handling**: Uploads and downloads are validated and tracked
-- 🧪 **API Security**: Tested endpoints using Postman and curl for verification
-- 🗝️ **No Plaintext Keys**: Encryption keys are generated and stored securely
-- 👤 **Simplicity for Users**: Interface designed for intuitive use
+## Final Outcome
+
+The portal successfully encrypts uploaded files using AES with a salt and initialization vector (IV) to ensure each encryption is unique. This prevents rainbow table attacks and guarantees confidentiality. All encryption, decryption, and user interaction occurs at Application Layer 7 of the OSI model.
 
 ---
 
-## 📸 Visuals
-
-Found in the `screenshots/` folder:
-
-- `upload_form_view.png` – Frontend upload form  
-- `encrypted_file_saved.png` – Example AES-encrypted file result  
-- `postman_api_test.png` – API testing validation  
-- `architecture_flowchart.png` – Diagram of encryption process and architecture  
-
----
-
-## ✅ Final Outcome
-
-This project demonstrates my ability to:
-
-- Build and secure full-stack applications  
-- Implement AES encryption with key management  
-- Write clean, well-documented, version-controlled code  
-- Simulate real-world security-focused development  
+Created by: B.Brinson
