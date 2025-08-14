@@ -49,6 +49,6 @@ a. The system returns an error message and no file is provided.
 6. Remaining Considerations<br>
 - No authentication system is implemented; access control could be added for enhanced security.<br>
 - Logging could be implemented to track:<br>
-- Upload attempts<br>
-- Download requests<br>
-- Incorrect decryption attempts
+a. Upload attempts<br>
+b. Download requests<br>
+c. Incorrect decryption attempts
