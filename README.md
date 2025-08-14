@@ -40,11 +40,14 @@ Secure-File-Portal/
 │ ├── script.js
 │── encryption_demo.mp4
 │── Screenshots/
-│ ├── portal_upload.png
-│ ├── portal_download.png
-│── Logs/
-│ ├── encryption_log.txt
-│── Tools_Used.md
+│ ├── 1_upload_form.png
+│ ├── 2_upload_file.png
+│ ├── 3_success_form.png
+│ ├── 4_success_key.png
+│ ├── 5_success_decrypted.png
+│ ├── 6_incorrect_key.png
+│ ├── 7_incorrect_result.png
+│── Secure_Portal_Report.pdf
 ```
 
 ## Final Outcome
