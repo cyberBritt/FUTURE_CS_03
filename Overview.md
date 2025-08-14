@@ -34,21 +34,9 @@ b. The decrypted copy is deleted from memory immediately after sending.
 - If the key is incorrect:<br>
 a. The system returns an error message and no file is provided.
 
-
 ---
 
 5. Decrypted File Handling<br>
 - Decrypted data exists only during the active session.<br>
 - No decrypted file is saved to the server’s filesystem.<br>
 - This approach reduces the risk of sensitive data exposure in case of a breach.
-
-
-
----
-
-6. Remaining Considerations<br>
-- No authentication system is implemented; access control could be added for enhanced security.<br>
-- Logging could be implemented to track:<br>
-a. Upload attempts<br>
-b. Download requests<br>
-c. Incorrect decryption attempts
