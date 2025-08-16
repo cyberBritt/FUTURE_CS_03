@@ -6,7 +6,7 @@ AES encryption and decryption implementation for cryptography.
 
 HTML, CSS, JavaScript for the frontend interface design and interactivity.
 
-Canva, OBS Studio for screen recording and video editing.
+OBS Studio. Canva for screen recording and video editing.
 
 Kali Linux (VMware) the main platform used for development and testing.
 
