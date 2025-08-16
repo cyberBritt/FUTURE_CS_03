@@ -16,6 +16,7 @@ This task involved developing a secure file upload/download portal using Python 
 ## Tools Used
 - Python (Flask, PyCryptodome) – Backend development and encryption
 - HTML/CSS/JavaScript – Frontend and UI functionality
+- OBS Studio/Canva - Screen record and video editing
 - Kali Linux – Testing environment
 - GitHub – Project host
 
