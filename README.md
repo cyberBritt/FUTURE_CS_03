@@ -44,7 +44,7 @@ Secure-File-Portal/
 │ ├── 2_upload_file.png
 │ ├── 3_success_form.png
 │ ├── 4_success_key.png
-│ ├── 5_success_decrypted.png
+│ ├── 5_file_decrypted.png
 │ ├── 6_incorrect_key.png
 │ ├── 7_incorrect_result.png
 │── Overview.md
