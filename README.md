@@ -31,13 +31,16 @@ Screenshot documentation of encryption process
 ```
 Secure-File-Portal/
 │── README.md
-│── app.py
-│── templates/
+│── Languages
+│── HTML
 │ ├── upload.html
 │ ├── download.html
-│── static/
+│── CSS
 │ ├── style.css
+│── Javascript
 │ ├── script.js
+│── Python
+│ ├── app.py
 │── encryption_demo.mp4
 │── Screenshots/
 │ ├── 1_upload_form.png
