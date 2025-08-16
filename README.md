@@ -33,14 +33,14 @@ Screenshot documentation of encryption process
 Secure-File-Portal/
 │── README.md
 │── Languages
-│── HTML
+│── -HTML
 │ ├── upload.html
 │ ├── download.html
-│── CSS
+│── -CSS
 │ ├── style.css
-│── Javascript
+│── -Javascript
 │ ├── script.js
-│── Python
+│── -Python
 │ ├── app.py
 │── encryption_demo.mp4
 │── Screenshots/
