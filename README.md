@@ -42,7 +42,6 @@ Secure-File-Portal/
 │ ├── script.js
 │── -Python
 │ ├── app.py
-│── encryption_demo.mp4
 │── Screenshots/
 │ ├── 1_upload_form.png
 │ ├── 2_upload_file.png
@@ -53,6 +52,7 @@ Secure-File-Portal/
 │ ├── 7_incorrect_result.png
 │── Overview.md
 │── Tools_Used.md
+│── View_Demo.md
 ```
 
 ## Final Outcome
