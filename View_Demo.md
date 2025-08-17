@@ -3,7 +3,7 @@ This project show the Secure File Web App I built with Python Flask, AES encrypt
 To watch a short clip of how the portal works click below:
 <br>
 <p align="center">
-  <a href="https://drive.google.com/file/d/1uLu4n6GOQ8QsoHEGBwbRS88ZtFfO4F1P/view?usp=drivesdk" target="_blank">
+  <a href="https://www.canva.com/design/DAGwGvFacDI/8nmuLi4Oan3Vf1etNR99eg/edit?utm_content=DAGwGvFacDI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
     <img src="https://lh3.googleusercontent.com/d/1VwdIYuGqyTzV9tjNg6Jd8KTV080l_TcY" 
          alt="Click To View Demo" width="500"/>
   </a>
