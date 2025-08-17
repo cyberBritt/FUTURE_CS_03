@@ -4,7 +4,7 @@ To watch a short clip of how the portal works click below:
 <br>
 <p align="center">
   <a href="https://cyberbritt.my.canva.site/" target="_blank">
-    <img src="https://lh3.googleusercontent.com/d/1VwdIYuGqyTzV9tjNg6Jd8KTV080l_TcY" 
+    <img src="https://lh3.googleusercontent.com/d/1zuYcdNtfjcTzedt3kfbTqO4aO4mdlV7d" 
          alt="Click To View Demo" width="500"/>
   </a>
 </p>
