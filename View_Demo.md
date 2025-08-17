@@ -1,6 +1,6 @@
 ## Demo Walkthrough
 This project show the Secure File Web App I built with Python Flask, AES encryption, HTML, CSS and JavaScript. <br>
-To watch a short clip of how the portal works click here:
+To watch a short clip of how the portal works click below:
 
 <p align="center">
   <a href="https://www.canva.com/design/DAGwGvFacDI/SZGie6qBbcxBNRgLXv_A_g/watch?utm_content=DAGwGvFacDI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2c5664c8e9" target="_blank">
